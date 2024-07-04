@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadre{
+    display: flex;
+    width: 60%;
+    height: 400px;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.image{
+    width: 50%;
+}
+
+.image img{
+    max-width: 100%; 
+    height: 400px;
+}
+
+.forme h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.forme{
+    background-color: rgb(233, 228, 228);
+    border-top-right-radius:1rem ;
+    border-bottom-right-radius:1rem ;
+    width: 50%;
+    padding-top:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bloc{
+    display: flex;
+}
+
+.bloc button{
+    margin-right: 10px;
+    margin-left: 0px;
+}
+/**l'inscription du client **/
+
+.cadre1{
+    display: flex;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.image1{
+    width: 40%;
+}
+
+.image1 img{
+    max-width: 100%; 
+    height: 100vh;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius:10px ;
+}
+.forme1{
+    width: 60%;
+    padding: 5px 15px;   
+}
+
+.forme1 h2{
+    text-align: center;
+    font-family: monospace;
+    font-weight: 800;
+    color: blue;
+    font-size: 30px;
+}
+
+.fr1{
+    display: inline-flex;
+}
+
+.fr1 .md-4 input{
+    width: 300px;
+}
+
+.fr2{
+    display: inline-flex;
+}
+
+.fr2 .mb-3 input{
+    width: 300px;
+}
+
+.fr2 .mb-4 input{
+    width: 300px;
+}
+
+.fr3{
+    display: inline-flex;
+}
+
+.fr3 .md-4 input{
+    width: 300px;
+}
+
+.fr4{
+    display: inline-flex;
+    margin-bottom: 20px;
+}
+
+.fr4 .md-4 input{
+    width: 300px;
+}
+
+label{
+    color: black;
+    font-size: 15px;
+    font-weight: 800;
+    font-family: monospace;
+}
+
+input[type="text"],input[type="date"],input[type="file"],input[type="password"],input[type="number"],input[type="email"],input[type="tel"] ,input[type="password"]{
+    
+    max-width: 300px;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 3px;
+    border: 1px solid rgb(0,0,0,0.5); 
+}
+
+.sexe{
+    width: calc(95%);
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 3px;
+    border: 1px solid rgb(0,0,0,0.5);
+}
+
+/* cette partie du code se trouve dans : 'ajouterpoduit.php' */
+.cadre2{
+    display: flex;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.image2{
+    width: 40%;
+    border: 3px solid gray;
+    border-radius: 10px;
+}
+
+.image2 img{
+    max-width: 100%; 
+}
+.forme2{
+    width: 60%;
+    padding: 5px 15px;   
+}
+
+.forme2 h2{
+    text-align: center;
+    font-family: monospace;
+    font-weight: 800;
+    color: rgb(255, 208, 0);
+    font-size: 30px;
+}
+/*fin*/
+.livreur{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border: 1px solid;
+}

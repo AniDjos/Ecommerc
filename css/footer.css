@@ -1,0 +1,114 @@
+.footer{
+  background-color: rgba(65, 63, 63, 0.884);
+  color: white;
+  padding-left: 15rem;
+  margin-bottom: 0px;
+}
+
+.footerA{
+  width: 30%;
+  padding: 15px 0px 15px 0px;
+  text-align: center;
+}
+
+.footerA h2{
+  font-size: 25px;
+  color:rgb(255, 208, 0) ;
+  font-family: Arial;
+  font-weight: 700;
+}
+
+.footerA p{
+  font-weight: 300;
+}
+.footerB{
+  width: 25%;
+  padding: 15px 0px 15px 3rem;
+}
+.footerB h2{
+  font-size: 25px;
+  font-family: Arial;
+  color:rgb(255, 208, 0) ;
+  font-weight: 600;
+}
+.footerB ul{
+  list-style-type: none;
+  font-weight: 300;
+}
+
+.footerC{
+  width: 43%;
+  padding: 15px 0px 15px 0px;
+}
+.footerC h2{
+  font-size: 25px;
+  font-family: Arial;
+  color:rgb(255, 208, 0) ;
+  font-weight: 700;
+}
+.footerC p{
+  font-weight: 300;
+}
+form{
+  padding-bottom:15px ;
+}
+input{
+  width: 75%;
+  height: 40px;
+}
+.footerD{
+  width: 55%;
+  display: flex;
+  padding: 15px 0px 15px 0px;
+}
+.footerD h2{
+  margin-right: 2rem;
+  font-size: 25px;
+  color:rgb(255, 208, 0) ;
+  font-family: Arial;
+  font-weight: 700;
+}
+.footerD p{
+  font-size: 20px;
+  margin-right: 1rem;
+}
+.footerD p i{
+  margin-right: 3px;
+  font-size: 20px;
+  color: rgb(255, 208, 0);
+} 
+
+.footerE{
+  width: 38%;
+  display: flex;
+  padding: 15px 0px 15px 0px;
+}
+.footerE h2{
+  margin-right: 2rem;
+  font-size: 25px;
+  color:rgb(255, 208, 0) ;
+  font-family: Arial;
+  font-weight: 700;
+}
+.footerE ul{
+  display: flex;
+  list-style-type: none;
+} 
+.footerE li{
+  margin-right: 1rem;
+  color: white;
+}
+
+.footerF{
+  padding-left: 13rem;
+  background-color: #9FA6B2;
+  color: black;
+}
+.footerF ul{
+  display: flex;
+  list-style-type: none;
+  font-weight: 300;
+}
+.footerF li{
+  margin-right: 3rem;
+}
